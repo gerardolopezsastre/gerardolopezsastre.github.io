@@ -1,0 +1,83 @@
+/******************************************************************************
+ * Content
+ ******************************************************************************/
+
+body {
+  padding-bottom: 70px;
+  color: var(--global-text-color);
+  background-color: var(--global-bg-color);
+
+  h1,
+  h2,
+  h3,
+  h4,
+  h5,
+  h6 {
+    scroll-margin-top: 66px;
+  }
+}
+
+body.fixed-top-nav {
+  // Add some padding for the nav-bar.
+  padding-top: 56px;
+}
+
+body.sticky-bottom-footer {
+  // Remove padding below footer.
+  padding-bottom: 0;
+}
+
+.container {
+  max-width: $max-content-width;
+}
+
+// Profile
+.profile {
+  img {
+    width: 100%;
+  }
+}
+
+// TODO: redefine content layout.
+
+/******************************************************************************
+ * Publications
+ ******************************************************************************/
+
+.publications {
+  .publication-item {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    //border-bottom: 1px solid var(--global-divider-color);
+  }
+
+  .title {
+    font-weight: 600;
+  }
+
+  .periodical {
+    margin-top: 0.25rem;
+    color: var(--global-text-color-light);
+    font-style: italic;
+  }
+
+  // Type badges on the left column
+  .type-badge {
+    color: var(--global-hover-text-color);
+    background-color: transparent; // reset base default
+    // ensure our custom colors win over defaults
+    &.is-book { background-color: #8e44ad !important; }
+    &.is-article { background-color: #16a085 !important; }
+    &.is-incollection { background-color: #d35400 !important; }
+  }
+  // keep explicit classes too (in case of CSS order changes)
+  .type-badge.is-book { background-color: #8e44ad !important; }
+  .type-badge.is-article { background-color: #16a085 !important; }
+  .type-badge.is-incollection { background-color: #d35400 !important; }
+}
+
+/*****************************************************************************
+* Projects
+*****************************************************************************/
+
+// TODO: redefine projects layout.
