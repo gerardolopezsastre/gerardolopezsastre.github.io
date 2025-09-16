@@ -22,6 +22,10 @@
     {%- assign type_label = 'Capítulo' -%}
     {%- assign type_class = 'is-incollection' -%}
     {% assign has_left_col = true %}
+  {%- elsif entry.type == 'review' -%}
+    {%- assign type_label = 'Reseña' -%}
+    {%- assign type_class = 'is-review' -%}
+    {% assign has_left_col = true %}
   {%- endif -%}
 
   {% if has_left_col %}
@@ -179,10 +183,36 @@
     {% assign thesis = 'thesis,mastersthesis,phdthesis' | split: ',' %}
     {% if entry.type == 'article' %}
       {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
+    {% elsif entry.type == 'review' %}
+      {% capture entrytype %}<em>{{ entry.journal }}</em>{% endcapture %}
     {% elsif entry.type == 'incollection' %}
+      {% assign editor_names = '' %}
+      {% assign editor_count = 0 %}
+      {% if entry.editor %}
+        {% assign editor_count = entry.editor_array | size %}
+        {% for editor in entry.editor_array %}
+          {% if forloop.first == false %}
+            {% if editor_count > 2 %}
+              {% assign editor_names = editor_names | append: ', ' %}
+            {% elsif editor_count == 2 %}
+              {% assign editor_names = editor_names | append: '  ' %}
+            {% endif %}
+          {% endif %}
+          {% if forloop.last and editor_count > 1 %}
+            {% assign editor_names = editor_names | append: 'and ' %}
+          {% endif %}
+          {% assign editor_last_html = editor.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
+          {% assign editor_name = editor.first | append: ' ' | append: editor_last_html %}
+          {% assign editor_names = editor_names | append: editor_name %}
+        {% endfor %}
+      {% endif %}
+      {% assign editor_label = 'ed.' %}
+      {% if editor_count > 1 %}
+        {% assign editor_label = 'eds.' %}
+      {% endif %}
       {% capture entrytype %}
         <em>En {{ entry.booktitle }}</em>
-        {% if entry.editor %}, ed. {{ entry.editor }}{% endif %}
+        {% if editor_count > 0 %}, {{ editor_label }} {{ editor_names }}{% endif %}
         {% if entry.publisher %}, {{ entry.publisher }}{% endif %}
         {% if entry.address %}, {{ entry.address }}{% endif %}
         {% if entry.series %}, {{ entry.series }}{% endif %}
