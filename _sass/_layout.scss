@@ -66,14 +66,16 @@ body.sticky-bottom-footer {
     color: var(--global-hover-text-color);
     background-color: transparent; // reset base default
     // ensure our custom colors win over defaults
-    &.is-book { background-color: #8e44ad !important; }
-    &.is-article { background-color: #16a085 !important; }
-    &.is-incollection { background-color: #d35400 !important; }
+    &.is-book { background-color: #9D3CC3 !important; }
+    &.is-article { background-color: #3CA5C3 !important; }
+    &.is-incollection { background-color: #D29C2D !important; }
+    &.is-review { background-color: #62C33C !important; }
   }
   // keep explicit classes too (in case of CSS order changes)
-  .type-badge.is-book { background-color: #8e44ad !important; }
-  .type-badge.is-article { background-color: #16a085 !important; }
-  .type-badge.is-incollection { background-color: #d35400 !important; }
+  .type-badge.is-book { background-color: #9D3CC3 !important; }
+  .type-badge.is-article { background-color: #3CA5C3 !important; }
+  .type-badge.is-incollection { background-color: #D29C2D !important; }
+  .type-badge.is-review { background-color: #62C33C !important; }
 }
 
 /*****************************************************************************
