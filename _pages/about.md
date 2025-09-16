@@ -25,7 +25,7 @@ latest_posts:
 
 Mi trabajo se centra en el estudio la filosofía moderna, filosofía moral y política, y de la filosofía comparada. Dentro de estos campos he prestado especial atención al pensamiento británico (con énfasis en David Hume y John Stuart Mill), a la obra de Ortega y Gasset, y al diálogo con las tradiciones de la China clásica.
 
-Me doctoré en la Universidad Complutense de Madrid (1990), habiendo desarollado estancias de investigación y enseñanza en Reino Unido, Italia, Estados Unidos, Argentina, y Hong Kong.
+Me doctoré en la Universidad Complutense de Madrid (1990), habiendo desarollado estancias de investigación y enseñanza en Reino Unido, Italia, Estados Unidos, Argentina y Hong Kong.
 
 ### Libros
 
