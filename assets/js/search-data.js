@@ -96,11 +96,6 @@ ninja.data = [{
           title: 'Hume: Nuevas perspectivas',
           description: "UCLM",
           section: "Projects",handler: () => {
-              window.location.href = "/projects/8_hume_obra%20copy/";
-            },},{id: "projects-hume-nuevas-perspectivas",
-          title: 'Hume: Nuevas perspectivas',
-          description: "UCLM",
-          section: "Projects",handler: () => {
               window.location.href = "/projects/8_hume_obra/";
             },},{id: "projects-berkeley-tres-diálogos-entre-hilas-y-filonús-trad",
           title: 'Berkeley: Tres diálogos entre Hilas y Filonús (trad.)',
