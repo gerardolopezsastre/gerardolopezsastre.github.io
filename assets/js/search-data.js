@@ -52,13 +52,18 @@ ninja.data = [{
             window.location.href = "/blog/2025/hola/";
           
         },
-      },{id: "projects-hume-saber-ser-escéptico",
-          title: 'Hume: Saber ser escéptico',
+      },{id: "projects-hume-investigación-sobre-los-principios-de-la-moral-trad",
+          title: 'Hume: Investigación sobre los principios de la moral (trad.)',
+          description: "Espasa Calpe",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/10_investigacion_moral_portada/";
+            },},{id: "projects-hume-saber-ser-escéptico",
+          title: 'Hume. Saber ser escéptico',
           description: "Shackleton Books",
           section: "Projects",handler: () => {
               window.location.href = "/projects/1_hume_shackleton/";
             },},{id: "projects-john-stuart-mill-el-utilitarismo-que-cambiaría-el-mundo",
-          title: 'John Stuart Mill: El utilitarismo que cambiaría el mundo',
+          title: 'John Stuart Mill. El utilitarismo que cambiaría el mundo',
           description: "Shackleton Books",
           section: "Projects",handler: () => {
               window.location.href = "/projects/2_mill_shackleton/";
@@ -73,7 +78,7 @@ ninja.data = [{
           section: "Projects",handler: () => {
               window.location.href = "/projects/4_cosmopolitismo/";
             },},{id: "projects-civilizados-y-salvajes-la-mirada-de-los-ilustrados-sobre-el-mundo-no-europeo-ed",
-          title: 'Civilizados y salvajes: La mirada de los ilustrados sobre el mundo no europeo...',
+          title: 'Civilizados y salvajes. La mirada de los ilustrados sobre el mundo no europeo...',
           description: "CEPC",
           section: "Projects",handler: () => {
               window.location.href = "/projects/5_civilizados/";
@@ -82,8 +87,8 @@ ninja.data = [{
           description: "Tecnos",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_hume_investigacion/";
-            },},{id: "projects-js-mill-tres-ensayos-trad",
-          title: 'JS Mill: Tres Ensayos (trad.)',
+            },},{id: "projects-js-mill-tres-ensayos-sobre-la-religión-trad",
+          title: 'JS Mill: Tres ensayos sobre la religión (trad.)',
           description: "Trotta",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_mill_tres/";
@@ -92,6 +97,16 @@ ninja.data = [{
           description: "UCLM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_hume_obra%20copy/";
+            },},{id: "projects-hume-nuevas-perspectivas",
+          title: 'Hume: Nuevas perspectivas',
+          description: "UCLM",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/8_hume_obra/";
+            },},{id: "projects-berkeley-tres-diálogos-entre-hilas-y-filonús",
+          title: 'Berkeley: Tres diálogos entre Hilas y Filonús',
+          description: "Espasa Calpe",
+          section: "Projects",handler: () => {
+              window.location.href = "/projects/9_tres_dialogos_portada/";
             },},{
         id: 'social-academia_edu',
         title: 'Academia_edu',
