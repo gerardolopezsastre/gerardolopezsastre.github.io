@@ -87,8 +87,8 @@ ninja.data = [{
           description: "Tecnos",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_hume_investigacion/";
-            },},{id: "projects-js-mill-tres-ensayos-sobre-la-religión-trad",
-          title: 'JS Mill: Tres ensayos sobre la religión (trad.)',
+            },},{id: "projects-js-mill-tres-ensayos-trad",
+          title: 'JS Mill: Tres Ensayos (trad.)',
           description: "Trotta",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_mill_tres/";
