@@ -1,10 +1,10 @@
 ---
 layout: page
-title: "Hume: Saber ser escéptico"
+title: "Hume. Saber ser escéptico"
 description: Shackleton Books
 img: assets/img/hume_portada.jpg
 importance: 1
-redirect: https://www.amazon.es/Gerardo-L%C3%B3pez-Sastre-ebook/dp/B0DVZ2NJSX
+redirect: https://shackletonbooks.com/libros/pensadores/hume/
 ---
 
 <p class="lead">Una imprescindible introducción a la vida y la obra de David Hume, el pensador que con sus iconoclastas ideas despertó a la filosofía (y a Kant) de su sueño dogmático.</p>

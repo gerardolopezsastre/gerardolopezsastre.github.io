@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Civilizados y salvajes: La mirada de los ilustrados sobre el mundo no europeo (ed.)"
+title: "Civilizados y salvajes. La mirada de los ilustrados sobre el mundo no europeo (ed.)"
 description: CEPC
 img: assets/img/civilizados.jpg
 importance: 5

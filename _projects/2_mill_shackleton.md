@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "John Stuart Mill: El utilitarismo que cambiaría el mundo"
+title: "John Stuart Mill. El utilitarismo que cambiaría el mundo"
 description: Shackleton Books
 img: assets/img/mill_portada.png
 importance: 2
