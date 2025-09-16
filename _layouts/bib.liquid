@@ -199,7 +199,7 @@
             {% endif %}
           {% endif %}
           {% if forloop.last and editor_count > 1 %}
-            {% assign editor_names = editor_names | append: 'and ' %}
+            {% assign editor_names = editor_names | append: 'y ' %}
           {% endif %}
           {% assign editor_last_html = editor.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' %}
           {% assign editor_name = editor.first | append: ' ' | append: editor_last_html %}
