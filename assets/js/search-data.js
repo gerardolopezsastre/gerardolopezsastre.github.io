@@ -30,7 +30,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publicaciones/";
           },
-        },{id: "post-este-es-mi-primer-post",
+        },{id: "post-reflexiones-filosoficas",
+        
+          title: "Reflexiones filosoficas",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/blog-prueba/";
+          
+        },
+      },{id: "post-este-es-mi-primer-post",
         
           title: "Este es mi primer post",
         
