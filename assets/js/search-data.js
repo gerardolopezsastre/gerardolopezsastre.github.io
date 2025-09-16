@@ -87,8 +87,8 @@ ninja.data = [{
           description: "Tecnos",
           section: "Projects",handler: () => {
               window.location.href = "/projects/6_hume_investigacion/";
-            },},{id: "projects-js-mill-tres-ensayos-trad",
-          title: 'JS Mill: Tres Ensayos (trad.)',
+            },},{id: "projects-js-mill-tres-ensayos-sobre-la-religión-trad",
+          title: 'JS Mill: Tres ensayos sobre la religión (trad.)',
           description: "Trotta",
           section: "Projects",handler: () => {
               window.location.href = "/projects/7_mill_tres/";
@@ -102,8 +102,8 @@ ninja.data = [{
           description: "UCLM",
           section: "Projects",handler: () => {
               window.location.href = "/projects/8_hume_obra/";
-            },},{id: "projects-berkeley-tres-diálogos-entre-hilas-y-filonús",
-          title: 'Berkeley: Tres diálogos entre Hilas y Filonús',
+            },},{id: "projects-berkeley-tres-diálogos-entre-hilas-y-filonús-trad",
+          title: 'Berkeley: Tres diálogos entre Hilas y Filonús (trad.)',
           description: "Espasa Calpe",
           section: "Projects",handler: () => {
               window.location.href = "/projects/9_tres_dialogos_portada/";
