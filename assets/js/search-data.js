@@ -30,6 +30,13 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/publicaciones/";
           },
+        },{id: "nav-videos",
+          title: "Videos",
+          description: "",
+          section: "Navigation",
+          handler: () => {
+            window.location.href = "/videos/";
+          },
         },{id: "post-reflexiones-filosoficas",
         
           title: "Reflexiones filosoficas",
