@@ -1,6 +1,6 @@
 ---
 layout: page
-title: "Berkeley: Tres diálogos entre Hilas y Filonús"
+title: "Berkeley: Tres diálogos entre Hilas y Filonús (trad.)"
 description: Espasa Calpe
 img: assets/img/tres_dialogos.jpg
 importance: 9
