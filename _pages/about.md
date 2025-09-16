@@ -35,7 +35,7 @@ Entre mis trabajos académicos, he coordinado [David Hume: nuevas perspectivas s
 
 
 <div class="projects">
-  {% assign selected_projects = site.projects | where_exp: 'p', 'p.title == "Hume: Saber ser escéptico" or p.title == "John Stuart Mill: El utilitarismo que cambiaría el mundo" or p.title == "Las luces del progreso y la conciencia de la Modernidad (ed.)" or p.title == "Cosmopolitismo y nacionalismo: De la Ilustración al mundo contemporáneo (ed.)"' %}
+  {% assign selected_projects = site.projects | where_exp: 'p', 'p.title == "Hume. Saber ser escéptico" or p.title == "John Stuart Mill. El utilitarismo que cambiaría el mundo" or p.title == "Las luces del progreso y la conciencia de la Modernidad (ed.)" or p.title == "Cosmopolitismo y nacionalismo: De la Ilustración al mundo contemporáneo (ed.)"' %}
   {% assign sorted_projects = selected_projects | sort: 'importance' %}
   <div class="row row-cols-1 row-cols-md-4">
     {% for project in sorted_projects %}
