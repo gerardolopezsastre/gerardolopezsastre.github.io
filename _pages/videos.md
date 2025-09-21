@@ -1,6 +1,6 @@
 ---
 layout: page
-title: Videos
+title: Vídeos
 permalink: /videos/
 nav: true
 nav_order: 4
