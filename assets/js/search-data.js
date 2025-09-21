@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/videos/";
           },
-        },{id: "post-reflexiones-filosoficas",
+        },{id: "post-prueba-jorge",
+        
+          title: "Prueba Jorge",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/blog-JORGE/";
+          
+        },
+      },{id: "post-reflexiones-filosoficas",
         
           title: "Reflexiones filosoficas",
         
