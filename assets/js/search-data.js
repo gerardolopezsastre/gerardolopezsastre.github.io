@@ -48,9 +48,9 @@ ninja.data = [{
             window.location.href = "/blog/2025/blog-JORGE/";
           
         },
-      },{id: "post-reflexiones-filosoficas",
+      },{id: "post-blog-prueba",
         
-          title: "Reflexiones filosoficas",
+          title: "Blog Prueba",
         
         description: "",
         section: "Posts",
