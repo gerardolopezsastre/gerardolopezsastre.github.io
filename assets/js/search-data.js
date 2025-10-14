@@ -59,11 +59,11 @@ ninja.data = [{
             window.location.href = "/blog/2025/blog-prueba/";
           
         },
-      },{id: "post-este-es-mi-primer-post",
+      },{id: "post-hola",
         
-          title: "Este es mi primer post",
+          title: "Hola",
         
-        description: "buenas tardes",
+        description: "",
         section: "Posts",
         handler: () => {
           
