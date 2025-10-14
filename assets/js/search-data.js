@@ -37,9 +37,9 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/videos/";
           },
-        },{id: "post-prueba-jorge",
+        },{id: "post-blog-jorge",
         
-          title: "Prueba Jorge",
+          title: "Blog Jorge",
         
         description: "",
         section: "Posts",
