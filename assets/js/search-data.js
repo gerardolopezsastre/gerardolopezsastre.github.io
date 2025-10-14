@@ -48,28 +48,6 @@ ninja.data = [{
             window.location.href = "/blog/2025/blog-JORGE/";
           
         },
-      },{id: "post-blog-prueba",
-        
-          title: "Blog Prueba",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/blog-prueba/";
-          
-        },
-      },{id: "post-hola",
-        
-          title: "Hola",
-        
-        description: "",
-        section: "Posts",
-        handler: () => {
-          
-            window.location.href = "/blog/2025/hola/";
-          
-        },
       },{id: "projects-hume-investigación-sobre-los-principios-de-la-moral-trad",
           title: 'Hume: Investigación sobre los principios de la moral (trad.)',
           description: "Espasa Calpe",
