@@ -108,7 +108,7 @@
             {% if forloop.first == false -%}
               {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif %}
             {%- endif %}
-            {%- if forloop.last and forloop.length > 1 %}y {% endif -%}
+            {%- if forloop.last and forloop.length > 1 %}y {% endif %}
           {% endif %}
           {%- if author_is_self -%}
             <em>
@@ -139,7 +139,7 @@
           {% if forloop.first == false -%}
             {%- if forloop.length > 2 %}, {% elsif forloop.length == 2 %}  {% endif -%}
           {%- endif -%}
-          {%- if forloop.last and forloop.length > 1 -%}y {%- endif -%}
+          {%- if forloop.last and forloop.length > 1 -%}y {% endif %}
           {%- assign editor_last_name = editor.last | regex_replace: '[*∗†‡§¶‖&^]', '' -%}
           {%- assign editor_last_html = editor.last | regex_replace: '([*∗†‡§¶‖&^]+)', '<sup>\1</sup>' -%}
           {{- editor.first }} {{ editor_last_html -}}
