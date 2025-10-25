@@ -37,15 +37,15 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/videos/";
           },
-        },{id: "post-",
+        },{id: "post-el-elogio-de-la-amistad-un-puente-entre-oriente-y-occidente",
         
-          title: "",
+          title: "El elogio de la amistad: un puente entre Oriente y Occidente",
         
         description: "",
         section: "Posts",
         handler: () => {
           
-            window.location.href = "/blog/2025/2025-10-25-ricci/";
+            window.location.href = "/blog/2025/ricci/";
           
         },
       },{id: "projects-hume-investigación-sobre-los-principios-de-la-moral-trad",
