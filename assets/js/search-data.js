@@ -37,7 +37,18 @@ ninja.data = [{
           handler: () => {
             window.location.href = "/videos/";
           },
-        },{id: "projects-hume-investigación-sobre-los-principios-de-la-moral-trad",
+        },{id: "post-",
+        
+          title: "",
+        
+        description: "",
+        section: "Posts",
+        handler: () => {
+          
+            window.location.href = "/blog/2025/2025-10-25-ricci/";
+          
+        },
+      },{id: "projects-hume-investigación-sobre-los-principios-de-la-moral-trad",
           title: 'Hume: Investigación sobre los principios de la moral (trad.)',
           description: "Espasa Calpe",
           section: "Projects",handler: () => {
