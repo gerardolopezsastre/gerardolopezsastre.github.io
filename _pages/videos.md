@@ -51,7 +51,29 @@ nav_order: 4
   </div>
 </div>
 
-Esto son otros vídeos: [Historia del budismo vista desde la Filosofía comparada](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)
-[Relevancia actual del budismo](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)
+#Esto son otros vídeos: [Historia del budismo vista desde la Filosofía comparada](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570) [Relevancia actual del budismo](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)
+
+ layout: page
+title: Otros video
+permalink: /videos/
+nav: true
+nav_order: 4
+---
+  
+  <div class="col mb-5">
+    <figure style="width: 85%; margin: 0 auto;">
+      <iframe width="100%" height="600" src="https://canal.uned.es/video/5a6f16c7b1111f316f8b4570" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <figcaption class="caption">Historia del budismo vista desde la Filosofía comparada</figcaption>
+    </figure>
+  </div>
+</div>
+  <div class="col mb-5">
+    <figure style="width: 85%; margin: 0 auto;">
+      <iframe width="100%" height="600" src="[https://canal.uned.es/video/5a6f16c7b1111f316f8b4570](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <figcaption class="caption">Relevancia actual del budismo</figcaption>
+    </figure>
+  </div>
+</div>
+
 
 
