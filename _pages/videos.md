@@ -51,4 +51,7 @@ nav_order: 4
   </div>
 </div>
 
+Esto son otros vídeos: [Historia del budismo vista desde la Filosofía comparada](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)
+[Relevancia actual del budismo](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)
+
 
