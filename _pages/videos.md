@@ -51,5 +51,5 @@ nav_order: 4
   </div>
 </div>
 
-Programas de Canal UNED: [Historia del budismo vista desde la Filosofía comparada](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570) y [Relevancia actual del budismo](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570)
+Programas de Canal UNED: [Historia del budismo vista desde la Filosofía comparada](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570) y [Relevancia actual del budismo]([https://canal.uned.es/video/5a6f16c7b1111f316f8b4570](https://canal.uned.es/video/5a6f16ccb1111f316f8b458)
 
