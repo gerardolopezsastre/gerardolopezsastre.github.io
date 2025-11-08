@@ -52,7 +52,7 @@ nav_order: 4
 </div>
  <div class="col mb-5">
     <figure style="width: 85%; margin: 0 auto;">
-      <iframe width="100%" height="600" src="https://www.youtube.com/embed/yfgHjgPbHQM?si=8FW62gUyhIp-POIv(https://www.youtube.com/watch?v=UwucKe5w5XQ)" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+      <iframe width="100%" height="600" src="https://www.youtube.com/watch?v=UwucKe5w5XQ" title="YouTube video" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
       <figcaption class="caption">El debate sobre los valores asiáticos y los derechos humanos</figcaption>
     </figure>
   </div>
