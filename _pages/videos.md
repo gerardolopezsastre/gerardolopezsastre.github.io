@@ -49,21 +49,17 @@ nav_order: 4
       <figcaption class="caption">¿Taoísmo para el siglo XXI?</figcaption>
     </figure>
   </div>
-</div>
   <div class="col mb-5">
     <figure style="width: 85%; margin: 0 auto;">
-      <iframe src='https://canal.uned.es/iframe/5a6f16c7b1111f316f8b4570' id='pumukitiframe' frameborder='0' border='0' width='560' height='315' allowfullscreen></iframe>
+      <iframe src='https://canal.uned.es/iframe/5a6f16c7b1111f316f8b4570' id='pumukitiframehistoria' frameborder='0' border='0' width="100%" height="600" allowfullscreen></iframe>
       <figcaption class="caption">Historia del budismo vista desde la Filosofía comparada</figcaption>
     </figure>
   </div>
-</div>
   <div class="col mb-5">
     <figure style="width: 85%; margin: 0 auto;">
-      <iframe src='https://canal.uned.es/iframe/5a6f16ccb1111f316f8b4583' id='pumukitiframe' frameborder='0' border='0' width='560' height='315' allowfullscreen></iframe>
+      <iframe src='https://canal.uned.es/iframe/5a6f16ccb1111f316f8b4583' id='pumukitiframebudismo' frameborder='0' border='0' width="100%" height="600" allowfullscreen></iframe>
       <figcaption class="caption">Relevancia actual del budismo</figcaption>
     </figure>
   </div>
 </div>
-
-Programas de Canal UNED: [Historia del budismo vista desde la Filosofía comparada](https://canal.uned.es/video/5a6f16c7b1111f316f8b4570) y [Relevancia actual del budismo](https://canal.uned.es/video/5a6f16ccb1111f316f8b4583)
 
